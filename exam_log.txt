@@ -1,0 +1,41 @@
+    1  history -w
+    2  history -w
+    3  logout
+    4  history
+    5  ls
+    6  cd 236814479_Peckley
+    7  mkdir linux_practice
+    8  ls
+    9  cd linux_practice
+   10  touch notes
+   11  touch notes.txt
+   12  cat notes.txt
+   13  echo "Hello, Linux!" >> notes.txt
+   14  cat notes.txt
+   15  echo "This is a practical exam." >> notes.txt
+   16  head -n 1 notes.txt
+   17  tail -n 1 notes.txt
+   18  mkdir subdir
+   19  mv notes.txt subdir
+   20  ls
+   21  mv subdir practice_subdir
+   22  ls
+   23  cd practice_subdir
+   24  ls
+   25  mv notes.txt linux_practice
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd
+   30  time date
+   31  times
+   32  df -t home
+   33  python --version
+   34  php --version
+   35  git --version
+   36  gh-- version
+   37  history
+   38  logout
+   39  cd 236814479_Peckley
+   40  git checkout -b finalexam
+   41  history > exam_log.txt
